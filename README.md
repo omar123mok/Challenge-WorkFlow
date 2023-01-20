@@ -45,13 +45,13 @@ jobs:
 
 ![App Screenshot](https://raw.githubusercontent.com/omar123mok/Challenge-Workflow/master/flowchart.jpg)
 
-    Red lines indicate the jobs running parallely
-    Green line indicate dependency between the jobs
+    Red lines indicates the jobs running parallely.
+    Green line indicates dependency between the jobs.
     Dependency is achieved by using needs block.
     
     needs: [ubuntu,windows,mac-os]
 
     After the jobs inside needs are executed,
-    the cutsom-runner job is executed
+    the cutsom job is executed
 
 
